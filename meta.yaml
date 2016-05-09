@@ -1,0 +1,20 @@
+package:
+  name: menpoproject
+  version: 1.0
+  
+build:
+  number: 0
+  noarch_python: True
+
+requirements:
+  run:
+    - python
+    - menpo
+    - menpowidgets
+    - menpofit
+    - menpodetect
+    - menpo3d
+
+about:
+  home: https://github.com/menpo
+  license: BSD
