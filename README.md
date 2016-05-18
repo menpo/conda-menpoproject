@@ -16,4 +16,5 @@ Updating
 1. Change `meta.yaml` with the changed dependencies
 2. Bump the build number in the `meta.yaml` by 1.
 3. `conda build .`
-4. `anaconda upload -u menpo -c master /path/to/conda-bld/noarch/menpoproject-1.0-py_0.tar.bz2`
+4. `anaconda upload -u menpo -c main /path/to/conda-bld/noarch/menpoproject-1.0-py_0.tar.bz2`
+
