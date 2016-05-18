@@ -3,7 +3,7 @@ package:
   version: 1.0
   
 build:
-  number: 0
+  number: 1
   noarch_python: True
 
 requirements:
@@ -13,7 +13,6 @@ requirements:
     - menpowidgets
     - menpofit
     - menpodetect
-    - menpo3d
 
 about:
   home: https://github.com/menpo
