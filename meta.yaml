@@ -1,18 +1,20 @@
 package:
   name: menpoproject
-  version: 1.0
+  version: "2.0"
   
 build:
-  number: 1
+  number: 0
   noarch_python: True
 
 requirements:
   run:
     - python
     - menpo
-    - menpowidgets
-    - menpofit
+    - menpo3d
+    - menpocli
     - menpodetect
+    - menpofit
+    - menpowidgets
 
 about:
   home: https://github.com/menpo
